@@ -12,7 +12,7 @@ const UserRouter = require("./Routes/UserRouter")
 main().catch(err => console.log(err))
 
 async function main () {
-  await mongoose.connect(process.env.MONGO_URL)
+  await mongoose.connect("mongodb+srv://coderanurag:6xgUI8S0Di6bYDlx@cluster0.dtxei.mongodb.net/dataBase?retryWrites=true&w=majority&appName=Cluster0")
     console.log("dataBase Connected")
 }
 
