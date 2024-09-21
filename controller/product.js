@@ -2,10 +2,7 @@
 const model = require("../mod/pro");
 
 const Product = model.Product;
-const mongoose = require("mongoose");
 
-const express = require("express");
-const path = require("path");
 
 // const data = JSON.parse(fs.readFileSync("jk.json", "utf-8"));
 // const products = data.product;
