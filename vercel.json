@@ -12,7 +12,7 @@
     ],
     "routes": [
         {
-          "src": "/product/(.*)",    
+          "src": "/product",    
           "dest": "express.js"
         },
          {
