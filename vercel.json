@@ -4,12 +4,25 @@
       {
         "src": "express.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "build/",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",    
+        {
+          "src": "/product",    
+          "dest": "express.js"
+        },
+         {
+        "src": "/product/(.*)",    
         "dest": "express.js"
-      }
+       },
+     {
+          "src" : "/(.*)",
+          "dest" : "build/"
+   }
+
     ]
   }
