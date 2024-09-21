@@ -15,6 +15,10 @@
           "src": "/product/(.*)",    
           "dest": "express.js"
         },
+         {
+        "src": "/product/(.*)",    
+        "dest": "express.js"
+       },
        
        {
         "src": "/",    
